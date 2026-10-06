@@ -1,0 +1,27 @@
+test_banco_sqlite_e_criado (test_servico.BibliotecaTestCase.test_banco_sqlite_e_criado) ... ok
+test_cadastrar_livro_define_copias_disponiveis (test_servico.BibliotecaTestCase.test_cadastrar_livro_define_copias_disponiveis) ... ok
+test_cadastrar_usuario (test_servico.BibliotecaTestCase.test_cadastrar_usuario) ... ok
+test_cadastro_rejeita_ano_futuro (test_servico.BibliotecaTestCase.test_cadastro_rejeita_ano_futuro) ... ok
+test_cadastro_rejeita_numero_de_copias_invalido (test_servico.BibliotecaTestCase.test_cadastro_rejeita_numero_de_copias_invalido) ... ok
+test_cadastro_rejeita_usuario_duplicado (test_servico.BibliotecaTestCase.test_cadastro_rejeita_usuario_duplicado) ... ok
+test_chaves_estrangeiras_estao_ativas (test_servico.BibliotecaTestCase.test_chaves_estrangeiras_estao_ativas) ... ok
+test_consulta_por_ano (test_servico.BibliotecaTestCase.test_consulta_por_ano) ... ok
+test_consulta_por_autor (test_servico.BibliotecaTestCase.test_consulta_por_autor) ... ok
+test_consulta_por_titulo_ignora_maiusculas (test_servico.BibliotecaTestCase.test_consulta_por_titulo_ignora_maiusculas) ... ok
+test_dados_persistem_apos_reabrir_banco (test_servico.BibliotecaTestCase.test_dados_persistem_apos_reabrir_banco) ... ok
+test_devolucao_rejeita_emprestimo_inexistente (test_servico.BibliotecaTestCase.test_devolucao_rejeita_emprestimo_inexistente) ... ok
+test_devolucao_restaura_copia_disponivel (test_servico.BibliotecaTestCase.test_devolucao_restaura_copia_disponivel) ... ok
+test_emprestimo_persiste_apos_reabrir_banco (test_servico.BibliotecaTestCase.test_emprestimo_persiste_apos_reabrir_banco) ... ok
+test_emprestimo_reduz_copia_disponivel (test_servico.BibliotecaTestCase.test_emprestimo_reduz_copia_disponivel) ... ok
+test_emprestimo_rejeita_livro_indisponivel (test_servico.BibliotecaTestCase.test_emprestimo_rejeita_livro_indisponivel) ... ok
+test_emprestimo_rejeita_livro_inexistente (test_servico.BibliotecaTestCase.test_emprestimo_rejeita_livro_inexistente) ... ok
+test_emprestimo_rejeita_usuario_inexistente (test_servico.BibliotecaTestCase.test_emprestimo_rejeita_usuario_inexistente) ... ok
+test_falha_de_emprestimo_nao_altera_estoque (test_servico.BibliotecaTestCase.test_falha_de_emprestimo_nao_altera_estoque) ... ok
+test_relatorio_disponiveis_exclui_livro_sem_copias (test_servico.BibliotecaTestCase.test_relatorio_disponiveis_exclui_livro_sem_copias) ... ok
+test_relatorio_emprestados_exibe_apenas_ativos (test_servico.BibliotecaTestCase.test_relatorio_emprestados_exibe_apenas_ativos) ... ok
+test_relatorio_usuarios (test_servico.BibliotecaTestCase.test_relatorio_usuarios) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 0.033s
+
+OK
